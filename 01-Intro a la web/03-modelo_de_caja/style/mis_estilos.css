@@ -1,0 +1,56 @@
+.card {
+    background-color: red;
+    /* Direccion del reloj Top , Right , Bottom , Left */
+    margin: 0 0 100px 5px;
+    border: rgb(105, 255, 19) 5px dashed;
+    border-top: rgb(53, 15, 224) 10px solid;
+    padding: 15px;
+    width: 502px;
+}
+
+.card-dos {
+    background-color: aquamarine;
+    /* box-sizing + border box limita la cantidad de pixeles y tamaño  */
+    box-sizing: border-box;
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.card-tres {
+    background-color: brown;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+
+/* z-index sirve para poner una imagen arriba de otra  */
+
+.contenedor-imagenes {
+    position: relative;
+}
+
+.contenedor-imagenes img {
+    position: absolute;
+}
+
+#arbol {
+    z-index: 5;
+}
+
+#carta {
+    z-index: 2;
+    margin-top: 220px;
+}
+
+.contenedor-display {
+    display: inline;
+}
+
+.contenedor-display {
+    display: block;
+    margin: 0 10px;
+}

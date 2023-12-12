@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(42, 88, 88);
+    font-family: 'Rancho', cursive;
+}
+
+.form-label {
+    color: chocolate;
+}
+
+.form-label:hover {
+    color: rgb(255, 0, 157);
+}
+
+
+.link-de-navegacion h1 {
+    color: blue;
+}
+
+.Titulo-principal {
+    color: cornflowerblue
+}
+
+.Titulo-principal {
+    color: rgb(13, 243, 128);
+}
+
+h1:hover {
+    color: crimson;
+}
+
+h1::first-letter {
+    color: rgb(255, 174, 0);
+}
+
+.titulo-de-seccion {
+    color: darkviolet;
+}
+
+.titulo-de-seccion:hover {
+    color: rgb(211, 32, 0);
+}
