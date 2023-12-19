@@ -1,0 +1,102 @@
+ /* Estilo básico para el contenedor principal */
+ .container {
+    display: flex;
+    align-items: center; /* Alinea el contenido verticalmente */
+  }
+
+  /* Estilo para el logo */
+  .logo {
+    width: 50px; /* Ajusta el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 5px; /* Espaciado entre el logo y el texto */
+  }
+
+  .main-text {
+    font-size: 22px; /* Ajusta el tamaño del texto según tus necesidades */
+    font-family: 'Archivo Black', sans-serif;
+    color: red;
+  }
+
+  .sin-hipervinculo {
+text-decoration: none;
+color: inherit;
+  }
+  
+  .titulo-principal {
+    align-items: center;
+  }
+
+       /* Estilos generales */
+       body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      /* Estilo para la barra de navegación */
+      nav {
+        background-color: #ffffff;
+        color: white;
+        padding: 0px;
+        display: flex;
+       justify-content: space-between;
+      }
+  
+  
+      /* Estilo para la sección de búsqueda */
+      .busqueda {
+        border: 1 solid;
+        flex-grow: 1;
+        margin: 0 50px;
+        position: relative;
+        border-radius: 20px;
+        #lupa {
+          width: 10px;
+        }
+      }
+  
+      .busqueda input[type="text"] {
+        width: 100%;
+        padding: 8px;
+      }
+  
+      .busqueda button {
+        padding: 8px;
+      }
+  
+      /* Estilo para los botones y sus opciones */
+      .boton {
+        position: relative;
+        cursor: pointer;
+      }
+  
+      .opciones-botones {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #ffffff;
+        color: white;
+        padding: 10px;
+        z-index: 1;
+       }
+  
+      .boton:hover .opciones-botones {
+        display: block;
+      }
+
+    #registar {
+      height: 30px;
+      width: 30px;
+    }
+
+    #Iniciar {
+      height: 30px;
+      width: 30px;
+    }
+
+  #Explorar {
+    height: 30px;
+    width: 30px;
+  }
+
+ 
